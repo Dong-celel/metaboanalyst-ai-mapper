@@ -1,0 +1,23 @@
+MetaboAnalyst NameMap View 自动化
+=================================
+
+当前版本已经改为 Python Playwright，可见 Chrome 自动操作。
+旧版 Selenium / 本地 PubChem 搜索命令已经停用，请以 README.md 为准。
+
+1. 安装依赖
+   python -m pip install -r requirements.txt
+
+2. 把唯一一个待处理 CSV/TXT 放入 input 文件夹。
+
+3. 双击 input\开始处理.bat；处理结果位于 output\<run_id>。
+
+4. 命令行等价用法
+   python main.py run --no-preflight --max-items 20 --browser-network direct --ask-deepseek-key
+
+5. 中断后恢复
+   python main.py run --resume <run_id> --no-preflight --browser-network direct
+
+DeepSeek 可选。只通过环境变量 DEEPSEEK_API_KEY 配置，不要编辑 config.py 写入密钥。
+未配置时，所有非精确候选都会进入 review_queue.csv，不会自动提交。
+
+完整说明：README.md

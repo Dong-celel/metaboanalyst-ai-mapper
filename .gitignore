@@ -1,0 +1,34 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Customer inputs and generated results
+/input/*
+!/input/README.md
+!/input/run.bat
+!/input/开始处理.bat
+/output/*
+!/output/README.md
+/runs/
+/Dr.yao/
+/*.csv
+/*.tsv
+/*.xls
+/*.xlsx
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Browser automation artifacts and local state
+playwright-report/
+test-results/
+.playwright/
+browser-profile/
+diagnostics/
+
+# Local Codex/agent metadata
+.agents/
+.codex/

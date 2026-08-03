@@ -1,0 +1,13 @@
+Query,Match,HMDB,PubChem,KEGG,SMILES,Comment
+"1,3-Diaminopropane",NA,NA,NA,NA,NA,0
+2-Ketobutyric acid,NA,NA,NA,NA,NA,0
+2-Hydroxybutyric acid,NA,NA,NA,NA,NA,0
+2-Methoxyestrone,NA,NA,NA,NA,NA,0
+(R)-3-Hydroxybutyric acid,NA,NA,NA,NA,NA,0
+Deoxyuridine,Deoxyuridine,HMDB0000012,13712,C00526,NA,1
+Cortexolone,NA,NA,NA,NA,NA,0
+Deoxycorticosteron,NA,NA,NA,NA,NA,0
+Ketoisovaleric acid,NA,NA,NA,NA,NA,0
+No Match,NA,NA,NA,NA,NA,0
+Beta-Alanine,NA,NA,NA,NA,NA,0
+Fumaric acid,Fumaric acid,HMDB0000134,444972,C00122,NA,1

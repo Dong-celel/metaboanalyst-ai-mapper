@@ -1,0 +1,10 @@
+# Core HTTP and AI clients
+openai>=2.2.0,<3
+httpx>=0.27.0,<1
+requests>=2.31.0,<3
+
+# Visible local browser automation
+playwright>=1.45.0,<2
+
+# Test runner
+pytest>=8.0.0,<9
